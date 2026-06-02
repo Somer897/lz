@@ -108,7 +108,7 @@ header, .First {
 }
 
 /* ---------------------FIRST------------------------- */
-/* ---------------------SECONDT------------------------- */
+/* ---------------------SECOND------------------------- */
 
 .Second{
     display: flex;
@@ -153,6 +153,7 @@ header, .First {
     letter-spacing: 0%;
     vertical-align: middle;
     color: #fff;
+    margin-bottom: 23px;
 }
 
 .Second-block-1-text1{
@@ -181,14 +182,703 @@ header, .First {
 }
 
 .Second-block-1{
-    margin: 0 24px 144px 72px;
+    margin: 10px 24px 144px 72px;
     width: 416px;
 }
 .Second-block-2{
-    margin: 0 24px 144px 0;
+    margin: 10px 24px 144px 0;
     width: 416px;
 }
 .Second-block-3{
-    margin: 0 72px 120px 0;
+    margin: 10px 72px 120px 0;
     width: 416px;
+}
+
+.Second-block-1-text-block{
+    width: 368px;
+}
+
+/* ---------------------SECOND------------------------- */
+/* ---------------------Thitd------------------------- */
+
+.Third{
+    display: flex;
+    background-color: #FFF3E4;
+}
+
+.Third-text-1{
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    margin: 120px 119px 24px 72px;
+}
+
+.Third-text-2{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    margin: 0 72px 134px 72px;
+    color: #5B6876;
+}
+
+.Third-button{
+    background: none;    
+    border: none;                     
+    cursor: pointer;    
+    background-color: none;  
+    width: 116px;
+    height: 28px;
+    transition: color 0.3s ease, transform 0.1s ease;
+    margin: 0 532px 120px 72px;
+    border-bottom: 1px solid #8491A0;
+}
+
+
+.Third-button :hover{
+    color: #609BFF;
+    border: none;
+}
+
+.Third-button :active{
+    color: gold;
+    border: none;
+}
+
+.Third-button-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+
+.glass-tear{
+    height: 600px;
+}
+
+/* ---------------------Thitd------------------------- */
+/* ---------------------Four------------------------- */
+
+.Fourth{
+    display: flex;
+    background-color: black;
+}
+
+.Fourth-block-1-text1{
+    color: white;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    margin-bottom: 29px;
+}
+
+.Fourth-block-1-text2{
+    color: #8491A0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+
+.Fourth-block-2345-text1{
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    margin: 14px 0 -2px 0;
+}
+
+.Fourth-block-2345-text2{
+    color: #8491A0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    max-width: 368px;
+}
+
+.Fourth-block{
+    flex-wrap: wrap;
+}
+
+.Fourth-block-1{
+    width: 416px;
+    margin: 120px 24px 319px 72px;
+}
+
+.Fourth-block-1-text2-block{
+    width: 368px;
+}
+
+.Fourth-block-2{
+    width: 416px;
+    height: 176px;
+    margin: 120px 24px 48px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.Fourth-block-3{
+    width: 416px;
+    height: 176px;
+    margin: 120px 72px 48px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.Fourth-block-4{
+    width: 416px;
+    height: 200px;
+    margin: -319px 24px 48px 512px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.Fourth-block-5{
+    width: 416px;
+    height: 176px;
+    margin: -319px 72px 48px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* ---------------------Four------------------------- */
+/* ---------------------Five------------------------- */
+
+.Fifth{
+    display: flex;
+    background-color: black;
+}
+
+.Fifth-block1{
+    width: 340px;
+    height: 140px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #181823;
+}
+.Fifth-block1-1{
+    margin-left: 30px;
+}
+
+.Fifth-icons{
+    width: 85px;
+    height: 30px;
+}
+
+/* ---------------------Five------------------------- */
+/* ---------------------Six------------------------- */
+
+.Sixth{
+    display: flex;
+    background-color: black;
+}
+
+.Sixth-block{
+    flex-wrap: wrap;
+}
+
+.sixth-top-text{
+    margin: 120px 88px 80px 72px;
+    width: 572px;
+    height: 164px;
+}
+
+.sixth-top-text1{
+    max-width: 106px;
+    color: #8491A0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+
+.sixth-top-text2{
+    color: white;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+
+.Sixth-block-1{
+    width: 636px;
+    margin: 120px 72px 24px 0;
+}
+
+.Sixth-block-2{
+    width: 636px;
+    margin: -610px 24px 24px 72px;
+}
+
+.Sixth-block-3{
+    width: 636px;
+    margin: 0 72px 91px 0;
+}
+
+.Sixth-block-4{
+    width: 636px;
+    margin: -674px 24px 153px 72px;
+}
+
+.sixth-text-block-1{
+    background-color: #181823;
+    display: flex;
+    flex-direction: column;
+    margin-top: -10px;
+}
+
+.sixth-text-1{
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    margin: 40px 290px 13px 32px;
+}
+
+.sixth-text-2{
+    color: #8491A0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    margin: 0 32px 40px 32px;
+}
+
+.sixth-button{
+    background: none;    
+    border: 1px solid #5221E6;                     
+    cursor: pointer;    
+    transition: color 0.3s ease, transform 0.1s ease;
+    color: #1B1A1A;  
+    width: 246px;
+    height: 75px;
+    margin: 0 236px 231px 195px;
+}
+
+.sixth-button-text{
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+}
+
+.sixth-button :hover{
+    color: #609BFF;
+    border: none;
+}
+
+.sixth-button :active{
+    color: gold;
+    border: none;
+}
+
+/* ---------------------Six------------------------- */
+/* ---------------------Seven------------------------- */
+
+.Seventh{
+    background-color: #FBE4FF;
+    display: flex;
+}
+
+.Seventh-text-1{
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    margin: 120px 363px 24px 72px;
+}
+
+.Seventh-text-2{
+    color: #5B6876;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    margin: 30px 72px 134px 72px;
+    max-width: 576px;
+}
+
+.Seventh-button{
+    width: 125px;
+    height: 28px;
+    border: none;
+    margin: 0 523px 120px 72px;
+    border-bottom: 1px solid #8491A0;
+    transition: color 0.3s ease, transform 0.1s ease;
+    cursor: pointer;
+    background: none;
+}
+
+.Seventh-button-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+
+.Seventh-button :hover{
+    color: #609BFF;
+    border: none;
+}
+
+.Seventh-button :active{
+    color: gold;
+    border: none;
+}
+
+/* ---------------------Seven------------------------- */
+/* ---------------------Eight------------------------- */
+
+.Eighth{
+    display: flex;
+    background-color: black;
+}
+
+.Eighth-main{
+    flex-wrap: wrap;
+}
+
+.Eighth-block{
+    margin: 120px 622px 120px 182px;
+    width: 636px;
+}
+
+.Eighth-text-1{
+    color: white;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    margin-bottom: 24px;
+}
+
+.Eighth-text-2{
+    color: #8491A0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    margin-bottom: 40px;
+}
+
+.Eighth-button{
+    width: 171px;
+    height: 28px;
+    border: none;
+    border-bottom: 1px solid #8491A0;
+    transition: color 0.3s ease, transform 0.1s ease;
+    cursor: pointer;
+    background: none;
+}
+
+.Eighth-button-text{
+    color: white;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+
+.Eighth-button :hover{
+    color: #609BFF;
+    border: none;
+}
+
+.Eighth-button :active{
+    color: gold;
+    border: none;
+}
+
+.sites{
+    margin: 0 182px 120px 182px;
+    border-radius: 10px;
+}
+
+/* ---------------------Eight------------------------- */
+/* ---------------------Nine------------------------- */
+
+.nineth{
+    display: flex;
+    background-color: black;
+}
+
+.nineth-margin{
+    margin: 120px 72px;
+}
+
+.nineth-block-1{
+    margin: 0 24px 2204px 0;
+    width: 636px;
+}
+
+.nineth-block-1-text-1{
+    color: white;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    max-width: 588px;
+}
+
+.nineth-block-1-text-2{
+    color: #8491A0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    margin: 24px 0 40px 0;
+    max-width: 588px;
+}
+
+.nineth-button-1{
+    width: 146px;
+    height: 28px;
+    border: none;
+    border-bottom: 1px solid #8491A0;
+    transition: color 0.3s ease, transform 0.1s ease;
+    cursor: pointer;
+    background: none;
+}
+
+.nineth-button-1 :hover{
+    color: #609BFF;
+    border: none;
+}
+
+.nineth-button-1-text{
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+
+.nineth-button-1 :active{
+    color: gold;
+    border: none;
+}
+
+.nineth-block-dormitory{
+    width: 636px;
+}
+
+.nineth-block-2{
+    margin-bottom: 120px;
+}
+
+
+.nineth-block-dormitory-1{
+    border: 1px solid #5B6876;
+    margin-top: -10px;
+}
+
+.nineth-text-1-1{
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    margin: 64px;
+    max-width: 508px;
+}
+
+.nineth-block-dormitory-1-2{
+    color: #5B6876;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    margin: 0 64px 4px 64px;
+}
+
+.nineth-block-dormitory-1-3{
+    color: #5B6876;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    margin: 0 64px 64px 64px;
+}
+
+/* ---------------------Nine------------------------- */
+/* ---------------------Ten------------------------- */
+
+.Tenth{
+    display: flex;
+    background-color: black;
+}
+
+.Tenth-main{
+    flex-wrap: wrap;
+}
+
+.tenth-text-1{
+    color: white;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    margin: 120px 780px 30px 72px;
+}
+
+.tenth-text-2{
+    color: #8491A0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    margin: 0 760px 64px 72px;
+}
+
+.Tenth-buttons{
+    display: flex;
+    margin: 0 878px 40px 72px;
+}
+
+.Tenth-button-1{
+    width: 88px;
+    height: 51px;
+    border: none;
+    transition: color 0.3s ease, transform 0.1s ease;
+    cursor: pointer;
+    background: #5221E6;
+}
+
+.Tenth-button-1 :hover{
+    color: #000000;
+    border: none;
+}
+
+.Tenth-button-1 :active{
+    color: gold;
+    border: none;
+}
+
+.Tenth-button-1-text{
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+}
+
+.Tenth-button-2{
+    border: none;
+    transition: color 0.3s ease, transform 0.1s ease;
+    cursor: pointer;
+    background: none;
+    border: 1px solid #5221E6;
+    height: 51px;
+}
+
+.Tenth-buttons{
+    gap: 24px;
+}
+
+.Tenth-button-2-1{
+    width: 136px;
+}
+
+.Tenth-button-2-2{
+    width: 92px;
+}
+
+.Tenth-button-2-3{
+    width: 102px;
+}
+
+.Tenth-button-2 :hover{
+    color: #609BFF;
+    border: none;
+}
+
+.Tenth-button-2 :active{
+    color: gold;
+    border: none;
+}
+
+.tenth-images{
+    margin: 0 72px 120px;
+    display: flex;
+    gap: 24px;
+}
+
+/* ---------------------Ten------------------------- */
+/* ---------------------Eleven------------------------- */
+
+.Eleventh{
+    display: flex;
+    background-color: black;
+}
+
+.Eleventh-text-block{
+    margin: 120px 24px 467px 182px;
+}
+
+.eleventh-block{
+    margin: 120px 182px 120px 0;
+}
+
+.Eleventh-text-1{
+    color: white;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+        margin-bottom: 24px;
+}
+
+.Eleventh-text-2{
+    color: #8491A0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    max-width: 526px;
 }
