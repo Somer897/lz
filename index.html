@@ -16,10 +16,10 @@
         <section class="container">
             <img src="assets/Vector.svg" class="header_img">
             <div class="header-links">
-                <div class="header-links-div1 header-links-div"><a href="#" class="header-links-text">Experience</a></div>
-                <div class="header-links-div2 header-links-div"><a href="#" class="header-links-text">Work</a></div>
-                <div class="header-links-div3 header-links-div"><a href="#" class="header-links-text">Photography</a></div>
-                <div class="header-links-div4 header-links-div"><a href="#" class="header-links-text Contact">Contact</a></div>
+                <div class="header-links-div1 header-links-div"><a href="#experience" class="header-links-text">Experience</a></div>
+                <div class="header-links-div2 header-links-div"><a href="#work" class="header-links-text">Work</a></div>
+                <div class="header-links-div3 header-links-div"><a href="#photo" class="header-links-text">Photography</a></div>
+                <div class="header-links-div4 header-links-div"><a href="#contact" class="header-links-text Contact">Contact</a></div>
             </div>
         </section>
     </header>
@@ -41,7 +41,7 @@
 
         <section class="Second">
             <div class="container Second-contain">
-                <p class="Second-text-1">work experience</p>
+                <p class="Second-text-1" id="experience">work experience</p>
                 <h2 class="Second-text-2">Companies I have worked
                     for in the past</h2>
 
@@ -136,7 +136,7 @@
 
                 <div class="sixth-top-text">
                     <p class="sixth-top-text1">MY PROJECTS</p>
-                    <h2 class="sixth-top-text2">Work that I've done for the past 8 years</h2>
+                    <h2 class="sixth-top-text2" id="work">Work that I've done for the past 8 years</h2>
                 </div>
 
                 <div class="Sixth-block-1">
@@ -257,7 +257,7 @@
 
         <section class="Tenth">
             <div class="container Tenth-main">
-                <h2 class="tenth-text-1">Photography</h2>
+                <h2 class="tenth-text-1" id="photo">Photography</h2>
                 <p class="tenth-text-2">Here is a collection of my best travel pictures that I took while travelling places all around the world.</p>
                 
                 <div class="Tenth-buttons">
@@ -287,17 +287,17 @@
                 <div class="eleventh-block">
                     <div class="user-name">
                         <p class="user-name-text">Name</p>
-                        <input type="text">
+                        <input type="text" class="input-1">
                     </div>
 
                     <div class="user-email">
                         <p class="user-name-text">Email</p>
-                        <input type="email">
+                        <input type="email"  class="input-2">
                     </div>
 
                     <div class="user-message">
                         <p class="user-name-text">Message</p>
-                        <input type="text">
+                        <input type="text"  class="input-3">
                     </div>
                     <button class="eleventh-button"><scan class="eleventh-buttontext">Let’s get started</scan></button>
                 </div>
@@ -307,27 +307,31 @@
     </main>
 
     <footer>
-        <img src="assets/Vector.svg" alt="footer-img">
-        <div class="footer-block">
-            <img src="assets/twitter.svg" alt="twitter">
-            <img src="assets/planet.svg" alt="planet">
-            <img src="assets/in.svg" alt="in">
-        </div>
+        <div class="container foot">
+            <div class="foot-images">
+                <img src="assets/Vector.svg" alt="footer-img" class="footer-img">
+                <div class="footer-block" id="contact">
+                    <a href="https://x.com" target="_blank"><img src="assets/twitter.svg" alt="twitter"></a>
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1" target="_blank"><img src="assets/planet.svg" alt="planet"></a>
+                    <a href="https://www.youtube.com/shorts/fB6NzaCifSg" target="_blank"><img src="assets/in.svg" alt="in"></a>
+                </div>
+            </div>
+к
+            <div class="footer-block-1">
+                <a href="https://www.w3schools.com/html/html_attributes.asp" target="_blank" class="foot-link" ><scan class="a-text">Home</scan></a>
+                <a href="https://www.w3schools.com/html/html_attributes.asp" target="_blank" class="foot-link"><scan class="a-text">About</scan></a>
+                <a href="https://www.w3schools.com/html/html_attributes.asp" target="_blank" class="foot-link"><scan class="a-text">Work</scan></a>
+                <a href="https://www.w3schools.com/html/html_attributes.asp" target="_blank" class="foot-link"><scan class="a-text">Process</scan></a>
+            </div>
 
-        <div class="footer-block-1">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Work</a>
-            <a href="#">Process</a>
-        </div>
+            <div class="footer-block-2">
+                <a href="https://www.w3schools.com/html/html_attributes.asp" target="_blank" class="foot-link"><scan class="a-text">Store</scan></a>
+                <a href="https://www.w3schools.com/html/html_attributes.asp" target="_blank" class="foot-link"><scan class="a-text">Blog</scan></a>
+                <a href="https://www.w3schools.com/html/html_attributes.asp" target="_blank" class="foot-link"><scan class="a-text">Reading List</scan></a>
+            </div>
 
-        <div class="footer-block-2">
-            <a href="#">Store</a>
-            <a href="#">Blog</a>
-            <a href="#">Reading List</a>
+            <p class="the-end">Not Copyright 2020 • Robin Williams. Webflow cloneable</p>
         </div>
-
-        <p class="the-end">Not Copyright 2020 • Robin Williams. Webflow cloneable</p>
     </footer>
     
 </body>
