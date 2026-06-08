@@ -389,6 +389,11 @@ header, .First {
     align-items: center;
     border: 1px solid #181823;
 }
+
+.Fifth-block2{
+    display: none;
+}
+
 .Fifth-block1-1{
     margin-left: 30px;
 }
@@ -1048,4 +1053,295 @@ footer{
     line-height: 150%;
     letter-spacing: 0%;
     margin: -100px 0 0 72px;;
+}
+
+@media (max-width: 1439px) and (min-width: 768px) {
+
+    .container{
+        max-width: 768px;
+    }
+
+    header, .First {
+    background: black;
+}
+
+    /* ---------------------HEADER------------------------- */
+
+    .header_img{
+        margin: 32px 133.57px 30px 40px;
+    }
+
+    .header-links{
+        margin: 0 40px 0 0;
+        display: flex;
+        align-items: center;
+    }
+
+    /* ---------------------HEADER------------------------- */
+    /* ---------------------MAIN------------------------- */
+
+    /* ---------------------FIRST------------------------- */
+
+    .person1{
+        width: 384px;
+        height: 650px;
+    }
+
+    .First-text-1{
+        letter-spacing: 5px;
+        margin: 167px 40px 32px -80px;
+        width: 408px;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 120%;
+        letter-spacing: 0%;
+        vertical-align: middle;
+
+    }
+
+    .First-text-2{
+        margin: 0 40px 172px -80px;
+        width: 408px;
+    }
+
+    .First-text-block{
+        z-index: 2;
+    }
+
+    /* ---------------------FIRST------------------------- */
+    /* ---------------------SECOND------------------------- */
+
+    .Second-text-1{
+        margin: 80px 570px 8px 40px;
+    }
+
+    .Second-text-2{
+        margin: 0 40px 40px 40px ;
+    }
+
+    .Second-block-1-text{
+        margin-bottom: 24px;
+        width: 197px;
+    }   
+
+    .Second-block-1{
+        margin: 10px 24px 104px 40px;
+        width: 213px;
+    }
+    .Second-block-2{
+        margin: 10px 24px 104px 0;
+        width: 213px;
+    }
+    .Second-block-3{
+        margin: 10px 40px 80px 0;
+        width: 213px;
+    }
+
+    .Second-block-1-text-block{
+        width: 197px;
+    }
+
+    /* ---------------------SECOND------------------------- */
+    /* ---------------------Thitd------------------------- */
+
+    .Third-text-1{
+        margin: 80px 40px 24px 40px;
+        width: 304px;
+        line-height: 120%;
+    }
+
+    .Third-text-2{
+        margin: 0 40px 67px 40px;
+        width: 304px;
+    }
+
+    .Third-button{
+        width: 116px;
+        height: 28px;
+        margin: 0 228px 80px 40px;
+    }
+
+    .glass-tear{
+        width: 384px;
+    }
+
+    /* ---------------------Thitd------------------------- */
+    /* ---------------------Four------------------------- */
+
+    .Fourth-block-1-text1{
+        margin-bottom: 28px;
+    }
+
+    .Fourth-block-1{
+        width: 688px;
+        margin: 80px 40px 48px 40px;
+    }
+
+    .Fourth-block-1-text2-block{
+        width: 688px;
+    }
+
+    .Fourth-block-2345-text2{
+        max-width: 284px;
+    }
+
+    .Fourth-block-2{
+        width: 332px;
+        height: 200px;
+        margin: 0px 24px 48px 40px;
+    }
+
+    .Fourth-block-3{
+        width: 332px;
+        height: 200px;
+        margin: 0 40px 48px 0;
+    }
+
+    .Fourth-block-4{
+        width: 273px;
+        height: 224px;
+        margin: 0 83px 80px 40px;
+    }
+
+    .Fourth-block-5{
+        width: 332px;
+        height: 200px;
+        margin: 0 40px 104px 0;
+    }
+
+    /* ---------------------Four------------------------- */
+    /* ---------------------Five------------------------- */
+
+    .Fifth-block1{
+        width: 380px;
+        height: 140px;
+    }
+
+    .Fifth-block2{
+        display: flex;
+    }
+
+    .Fifth-block1-1{
+        margin-left: 0;
+    }
+
+    .Fifth-icons{
+        width: 85px;
+        height: 30px;
+    }
+
+    .Fifth-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .Fifth-icons1{
+        margin: 59px 171px 60px 128px;
+    }
+
+    .Fifth-icons2{
+        width: 154px;
+        height: 25px;
+    }
+
+    .Fifth-icons3{
+        width: 41.51px;
+        height: 21px;
+    }
+    /* ---------------------Five------------------------- */
+    /* ---------------------Six------------------------- */
+
+    .sixth-top-text{
+        margin: 120px 88px 80px 72px;
+        width: 572px;
+        height: 164px;
+    }
+
+    .sixth-top-text1{
+        max-width: 106px;
+        color: #8491A0;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0%;
+        vertical-align: middle;
+        text-transform: uppercase;
+    }
+
+    .sixth-top-text2{
+        color: white;
+        font-weight: 700;
+        font-size: 55px;
+        line-height: 120%;
+        letter-spacing: 0%;
+        vertical-align: middle;
+    }
+
+    .Sixth-block-1{
+        width: 636px;
+        margin: 120px 72px 24px 0;
+    }
+
+    .Sixth-block-2{
+        width: 636px;
+        margin: -610px 24px 24px 72px;
+    }
+
+    .Sixth-block-3{
+        width: 636px;
+        margin: 0 72px 91px 0;
+    }
+
+    .Sixth-block-4{
+        width: 636px;
+        margin: -674px 24px 153px 72px;
+    }
+
+    .sixth-text-block-1{
+        background-color: #181823;
+        display: flex;
+        flex-direction: column;
+        margin-top: -10px;
+    }
+
+    .sixth-text-1{
+        color: white;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 150%;
+        letter-spacing: 0%;
+        vertical-align: middle;
+        margin: 40px 290px 13px 32px;
+    }
+
+    .sixth-text-2{
+        color: #8491A0;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        letter-spacing: 0%;
+        vertical-align: middle;
+        margin: 0 32px 40px 32px;
+    }
+
+    .sixth-button{
+        background: none;    
+        border: 1px solid #5221E6;                     
+        cursor: pointer;    
+        color: #1B1A1A;  
+        width: 246px;
+        height: 75px;
+        margin: 0 236px 231px 195px;
+    }
+
+    .sixth-button-text{
+        color: white;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 150%;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+    }
+
+    /* ---------------------Six------------------------- */
 }
