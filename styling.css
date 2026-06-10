@@ -89,6 +89,10 @@ header, .First {
     margin: 80px 0 84px 0;
 }
 
+.person2{
+    display: none;
+}
+
 .First-text-1{
     font-weight: 600;
     font-size: 78px;
@@ -270,6 +274,10 @@ header, .First {
 
 .glass-tear{
     height: 600px;
+}
+
+.glass-tear1{
+    display: none;
 }
 
 /* ---------------------Thitd------------------------- */
@@ -518,6 +526,14 @@ header, .First {
     border: none;
 }
 
+.telephone768{
+    display: none;
+}
+
+.laptop768{
+    display: none;
+}
+
 /* ---------------------Six------------------------- */
 /* ---------------------Seven------------------------- */
 
@@ -544,6 +560,10 @@ header, .First {
     vertical-align: middle;
     margin: 30px 72px 134px 72px;
     max-width: 576px;
+}
+
+.Seventh-button1{
+    display: none;
 }
 
 .Seventh-button{
@@ -646,12 +666,20 @@ header, .First {
     border-radius: 10px;
 }
 
+.sites1{
+    display: none;
+}
+
 /* ---------------------Eight------------------------- */
 /* ---------------------Nine------------------------- */
 
 .nineth{
     display: flex;
     background-color: black;
+}
+
+.working1{
+    display: none;
 }
 
 .nineth-margin{
@@ -756,6 +784,10 @@ header, .First {
     letter-spacing: 0%;
     vertical-align: middle;
     margin: 0 64px 64px 64px;
+}
+
+.abc2{
+    display: none;
 }
 
 /* ---------------------Nine------------------------- */
@@ -1082,9 +1114,14 @@ footer{
 
     /* ---------------------FIRST------------------------- */
 
-    .person1{
+    .person2{
         width: 384px;
         height: 650px;
+        display: block;
+    }
+
+    .person1{
+        display: none;
     }
 
     .First-text-1{
@@ -1161,10 +1198,14 @@ footer{
         margin: 0 228px 80px 40px;
     }
 
-    .glass-tear{
+    .glass-tear1{
         width: 384px;
+        display: block;
     }
 
+    .glass-tear{
+        display: none;
+    }
     /* ---------------------Thitd------------------------- */
     /* ---------------------Four------------------------- */
 
@@ -1252,96 +1293,200 @@ footer{
     /* ---------------------Six------------------------- */
 
     .sixth-top-text{
-        margin: 120px 88px 80px 72px;
-        width: 572px;
+        margin: 80px 40px 80px 40px;
+        width: 688px;
         height: 164px;
     }
 
     .sixth-top-text1{
         max-width: 106px;
-        color: #8491A0;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 150%;
-        letter-spacing: 0%;
-        vertical-align: middle;
-        text-transform: uppercase;
-    }
-
-    .sixth-top-text2{
-        color: white;
-        font-weight: 700;
-        font-size: 55px;
-        line-height: 120%;
-        letter-spacing: 0%;
-        vertical-align: middle;
+        margin-bottom: 8px;
     }
 
     .Sixth-block-1{
-        width: 636px;
-        margin: 120px 72px 24px 0;
+        width: 688px;
+        margin: 0 40px 48px 40px;
     }
 
     .Sixth-block-2{
-        width: 636px;
-        margin: -610px 24px 24px 72px;
+        width: 688px;
+        margin: 0 40px 48px 40px;
     }
 
     .Sixth-block-3{
-        width: 636px;
-        margin: 0 72px 91px 0;
+        width: 688px;
+        margin: 0 40px 48px 40px;
     }
 
     .Sixth-block-4{
-        width: 636px;
-        margin: -674px 24px 153px 72px;
-    }
-
-    .sixth-text-block-1{
-        background-color: #181823;
-        display: flex;
-        flex-direction: column;
-        margin-top: -10px;
+        width: 688px;
+        margin: 0 40px 80px 40px;
     }
 
     .sixth-text-1{
-        color: white;
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 150%;
-        letter-spacing: 0%;
-        vertical-align: middle;
-        margin: 40px 290px 13px 32px;
+        margin: 40px 342px 13px 32px;
+        width: 314px;
     }
 
     .sixth-text-2{
-        color: #8491A0;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 150%;
-        letter-spacing: 0%;
-        vertical-align: middle;
-        margin: 0 32px 40px 32px;
+        margin: 0 34px 40px 34px;
     }
 
     .sixth-button{
-        background: none;    
-        border: 1px solid #5221E6;                     
-        cursor: pointer;    
-        color: #1B1A1A;  
-        width: 246px;
-        height: 75px;
-        margin: 0 236px 231px 195px;
+        display: none;
     }
 
-    .sixth-button-text{
-        color: white;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 150%;
-        letter-spacing: 0%;
-        text-transform: uppercase;
+    .laptop768, .telephone768{
+        width: 688px;
+        display: block;
+    }
+
+    .sixth-image{
+        width: 688px;
+    }
+
+    .sixth-image1{
+        display: none;
     }
 
     /* ---------------------Six------------------------- */
+
+    /* ---------------------Seven------------------------- */
+
+    .Seventh-text-1{
+        margin: 80px 40px 30px 40px;
+    }
+
+    .Seventh-text-2{
+        margin: 0 40px 133px 40px;
+        max-width: 576px;
+    }
+
+    .Seventh-button{
+        display: none;
+    }
+
+    .Seventh-button1{
+    display: block;
+    width: 116px;
+    height: 28px;
+    border: none;
+    margin: 0 228px 80px 40px;
+    border-bottom: 1px solid #8491A0;
+    transition: color 0.3s ease, transform 0.1s ease;
+    cursor: pointer;
+    background: none;
+    }
+
+    .Seventh-button1 :hover{
+        color: #609BFF;
+        border: none;
+    }
+
+    .Seventh-button1 :active{
+        color: gold;
+        border: none;
+    }
+
+    /* ---------------------Seven------------------------- */
+
+    /* ---------------------Eight------------------------- */
+
+    .Eighth-block{
+        margin: 80px 40px 120px 40px;
+        width: 688px;
+    }
+
+    .Eighth-text-1{
+        margin-bottom: 28px;
+    }
+
+    .Eighth-text-2{
+        margin-bottom: 36px;
+    }
+
+    .Eighth-button{
+        width: 170px;
+        height: 28px;
+
+    }
+
+    .sites1{
+        margin: 0 40px 80px 40px;
+        width: 688px;
+        display: block;
+        border-radius: 10px;
+
+    }
+    
+    .sites{
+        display: none;
+    }
+
+    /* ---------------------Eight------------------------- */
+
+    /* ---------------------Nine------------------------- */
+
+    .nineth-margin{
+        margin: 0 auto;
+    }
+
+    .nineth-block-1{
+        margin: 80px 23px 2234px 0;
+        width: 333px;
+    }
+
+    .nineth-block-1-text-1{
+        max-width: 333px;
+        margin-bottom: 24px;
+    }
+
+    .nineth-block-1-text-2{
+        margin: 0 1px 40px 0;
+        max-width: 333px;
+    }
+
+    .nineth-block-dormitory{
+        width: 332px;
+        margin-top: 80px;
+    }
+
+    .nineth-block-2{
+        margin-bottom: 64px;
+    }
+
+    .nineth-text-1-1{
+        margin: 44px 32px 64px 32px;
+        max-width: 508px;
+        line-height: 150%;
+    }
+
+    .nineth-block-dormitory-1-2{
+        margin: 0 37px 5px 32px;
+        color: #8491A0;
+    }
+    
+
+    .nineth-block-dormitory-1-3{
+        margin: 0 37px 30px 32px;
+        color: #8491A0;
+    }
+
+    .working{
+        display: none;
+    }
+
+    .working1{
+        display: block;
+    }
+
+    .abc1{
+        display: none;
+    }
+
+    .abc2{
+        display: inline;
+    }
+
+    /* ---------------------Nine------------------------- */
 }
