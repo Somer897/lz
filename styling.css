@@ -68,6 +68,10 @@ header, .First {
     background-color: #5221ef;
 }
 
+.Nav{
+    display: none;
+}
+
 .header-links-text{
     color: #FFF;      
     text-decoration: none;  
@@ -1086,6 +1090,7 @@ footer{
     letter-spacing: 0%;
     margin: -100px 0 0 72px;;
 }
+/*---------------------------FOOTER--------------------------*/
 
 @media (max-width: 1439px) and (min-width: 768px) {
 
@@ -1489,4 +1494,179 @@ footer{
     }
 
     /* ---------------------Nine------------------------- */
+    /* ---------------------Ten------------------------- */
+
+
+    .tenth-text-1{
+        margin: 80px 39px 30px 39px;
+    }
+
+    .tenth-text-2{
+        color: #8491A0;
+        margin: 0 39px 64px 39px;
+    }
+
+    .Tenth-buttons{
+        margin: 0 238px 40px 39px;
+    }
+
+    .tenth-images{
+        margin: 0 40px 80px 40px;
+        flex-wrap: wrap;
+    }
+
+    .ten-img{
+        width: 332px;
+        height: 420px;
+    }
+
+    /* ---------------------Ten------------------------- */
+    /* ---------------------Eleven------------------------- */
+
+    .Eleventh-text-block{
+        margin: 80px 24px 334px 40px;
+    }
+
+    .eleventh-block{
+        margin: 80px 40px 80px 0;
+        width: 332px;
+    }
+
+    .Eleventh-text-1{
+        margin-bottom: 24px;
+        line-height: 120%;
+    }
+
+    .Eleventh-text-2{
+        max-width: 332px;
+    }
+
+    .user-name-text{
+        margin-bottom: 8px;
+    }
+
+    .input-1{
+        width: 332px;
+        top: 32px;
+    }
+
+    .input-2{
+        width: 332px;
+        top: 154px;
+    }
+
+    .input-3{
+        width: 526px;
+        top: 276px;
+    }
+
+    .user-name{
+        margin-bottom: 40px;
+    }
+
+    .user-email{
+        margin-bottom: 40px;
+    }
+
+    .eleventh-button{
+        margin-top: 40px;
+        width: 332px;
+    }
+
+    /* ---------------------Eleven------------------------- */
+    /* ---------------------MAIN------------------------- */
+    /* ---------------------FOOTER------------------------- */
+
+    .foot-images{
+        margin: 80px 216.28px 148px 40px;
+        width: 130.72px;
+        height: 96px;
+    }
+
+    .footer-block-1{
+        gap: 22px;
+        margin: 90px 122px 150px 0;
+    }
+
+    .footer-block-2{
+        gap: 22px;
+        margin: 90px 40px 198px 0;
+    }
+
+    .the-end{
+        margin: -100px 0 0 40px;
+        max-width: 329px;
+    }
+    /* ---------------------FOOTER------------------------- */
+}
+
+@media (max-width: 767px) and (min-width: 360px) {
+
+    .container{
+        max-width: 360px;
+    }
+
+    /* ---------------------HEADER------------------------- */
+
+    .header_img{
+        margin: 24px 217.57px 24px 20px;
+    }
+
+    .header-links{
+        display: none;
+    }
+
+    .Nav{
+        display: block;
+        margin: 24px 20px 24px 0;
+    }
+
+    header, .First {
+    background: black;
+    }
+
+    /* ---------------------HEADER------------------------- */
+    /* ---------------------MAIN------------------------- */
+
+        
+    /* ---------------------FIRST------------------------- */
+
+
+
+    .person1{
+        margin: 0 0 48px 0;
+        width: 360px;
+        height: 288px;
+    }
+
+    .First-text-1{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 120%;
+        letter-spacing: 0%;
+        vertical-align: middle;
+        max-width: 310px;
+        margin: 0 0 16px 0;
+    }
+
+    .First-text-1-1{
+        opacity: 0.5;
+        line-height: 120%;
+    }
+
+    .First-text-2{
+        margin: 0 auto;
+    }
+
+    .First-text-block{
+        margin: 0 20px 48px 20px;
+        height: 310px;
+    }
+
+    .First-contain{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* ---------------------FIRST------------------------- */
 }
